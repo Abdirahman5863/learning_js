@@ -48,3 +48,13 @@ let numero = 10;
 let result = numero >= 0 ? "positive" : "Negative";
 
 console.log(`The number is ${result}`)
+
+//using for loop iterate for even numbers from  0 to 10 
+
+for (let i = 0; i <= 10; i++){
+    if (i % 2 == 0){
+        console.log(i);
+    }
+}
+
+
